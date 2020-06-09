@@ -2,20 +2,43 @@
 <meta charset="UTF-8">
 <title>DOM</title>
 <link rel="stylesheet"
-<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
 <style>
-body {  
-font-family: 'B612', sans-serif;
-}
 #borko {
 position: fixed;
 top: 10%;
 left: 2.5%;
 }
+/* cutive-mono-regular - latin */
+@font-face {
+  font-family: 'Cutive Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/cutive-mono-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Cutive Mono Regular'), local('CutiveMono-Regular'),
+       url('../fonts/cutive-mono-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/cutive-mono-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/cutive-mono-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/cutive-mono-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/cutive-mono-v8-latin-regular.svg#CutiveMono') format('svg'); /* Legacy iOS */
+}
+/* b612-700 - latin */
+@font-face {
+  font-family: 'B612';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/b612-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('B612 Bold'), local('B612-Bold'),
+       url('../fonts/b612-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/b612-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/b612-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/b612-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/b612-v4-latin-700.svg#B612') format('svg'); /* Legacy iOS */
 #mono {
 font-family: 'Cutive Mono', monospace;
 }
+body {
+font-family: 'B612', sans-serif;
+}	
 </style>
 <script>
 window.console = window.console || function(x) {};
